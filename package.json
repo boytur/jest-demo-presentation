@@ -1,0 +1,19 @@
+{
+  "name": "testing-lacture-presentation",
+  "version": "1.0.0",
+  "description": "calculator-api-jest/\r ┣ src/\r ┃ ┣ controllers/\r ┃ ┃ ┗ calculatorController.js   # โค้ดของ API ที่ทำงานเกี่ยวกับการบวก ลบ คูณ หาร\r ┃ ┗ app.js                      # ไฟล์หลักสำหรับเริ่มต้นเซิร์ฟเวอร์\r ┣ tests/\r ┃ ┗ calculatorController.test.js # ไฟล์ทดสอบ API ด้วย Jest และ supertest\r ┣ node_modules/                  # โฟลเดอร์ของ dependencies ที่ติดตั้งด้วย npm\r ┣ .gitignore                     # ไฟล์สำหรับบอก Git ให้ไม่ติดตามไฟล์หรือโฟลเดอร์บางอย่าง\r ┣ package.json                   # ไฟล์ที่เก็บข้อมูลโปรเจกต์และ dependencies\r ┣ package-lock.json              # ไฟล์ที่เก็บข้อมูล dependencies ทั้งหมด (รวมเวอร์ชันที่แน่นอน)\r ┗ README.md                      # ไฟล์สำหรับอธิบายโปรเจกต์",
+  "main": "app.js",
+  "directories": {
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "jest": "^29.7.0"
+  }
+}
